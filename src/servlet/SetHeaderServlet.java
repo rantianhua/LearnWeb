@@ -1,3 +1,5 @@
+package servlet;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -13,7 +15,7 @@ import java.util.Date;
  * Created by rantianhua on 16/12/24.
  * refresh client every 5 seconds
  */
-@WebServlet(name = "SetHeaderServlet", urlPatterns = "/SetHeader")
+@WebServlet(name = "servlet.SetHeaderServlet", urlPatterns = "/SetHeader")
 public class SetHeaderServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

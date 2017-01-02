@@ -1,3 +1,5 @@
+package servlet;
+
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
@@ -15,7 +17,7 @@ import java.util.List;
 /**
  * Created by rantianhua on 16/12/25.
  */
-@WebServlet(name = "UploadServlet",
+@WebServlet(name = "servlet.UploadServlet",
     urlPatterns = "/upload")
 public class UploadServlet extends HttpServlet {
 

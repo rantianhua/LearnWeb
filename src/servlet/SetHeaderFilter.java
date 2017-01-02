@@ -1,3 +1,5 @@
+package servlet;
+
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.annotation.WebInitParam;
@@ -6,7 +8,7 @@ import java.io.IOException;
 /**
  * Created by rantianhua on 16/12/24.
  */
-@WebFilter(filterName = "SetHeaderFilter",
+@WebFilter(filterName = "servlet.SetHeaderFilter",
         urlPatterns = "/SetHeader",
         initParams = {
             @WebInitParam(name = "realTime", value = "10")

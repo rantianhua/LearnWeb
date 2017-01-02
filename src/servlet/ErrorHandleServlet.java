@@ -1,3 +1,5 @@
+package servlet;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,7 +12,7 @@ import java.io.PrintWriter;
 /**
  * Created by rantianhua on 16/12/25.
  */
-@WebServlet(name = "ErrorHandleServlet",
+@WebServlet(name = "servlet.ErrorHandleServlet",
         urlPatterns = "/Error")
 public class ErrorHandleServlet extends HttpServlet {
 

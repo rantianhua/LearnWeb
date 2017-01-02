@@ -1,3 +1,5 @@
+package servlet;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -11,7 +13,7 @@ import java.net.URLDecoder;
 /**
  * Created by rantianhua on 16/12/25.
  */
-@WebServlet(name = "ReadCookieServlet",
+@WebServlet(name = "servlet.ReadCookieServlet",
     urlPatterns = "/ReadCookie")
 public class ReadCookieServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

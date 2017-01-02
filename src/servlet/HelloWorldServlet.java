@@ -1,3 +1,5 @@
+package servlet;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -11,7 +13,7 @@ import java.net.URLEncoder;
 /**
  * Created by rantianhua on 16/12/21.
  */
-@WebServlet(urlPatterns = "/HelloWorld", name = "HelloWorld")
+@WebServlet(urlPatterns = "/HelloWorldConfigByXml", name = "HelloWorldConfigByXml")
 public class HelloWorldServlet extends HttpServlet {
 
 

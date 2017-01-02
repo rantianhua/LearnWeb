@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="helloBean" class="bean.HelloWorldConfigByXml">
+        <property name="name" value="Jean"/>
+        <property name="introduce" ref="introduceA"/>
+    </bean>
+
+    <bean id="introduceA" class="bean.IntroduceA"/>
+
+    <bean id="introduceB" class="bean.IntroduceB"/>
+
+</beans>
